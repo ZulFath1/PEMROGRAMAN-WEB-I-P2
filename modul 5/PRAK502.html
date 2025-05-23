@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Latihan JavaScript</h1>
+
+        <p id="demo">
+            Javsascript bisa meruba isi elemen HTML
+        </p>
+
+        <script>
+            function myFunction()
+            {
+                x=document.getElementById("demo"); //temukan element yang mana
+                x.innerHTML="Ini isi terbaru"; // rubah isisnya
+            }
+        </script>
+
+        <button type="button" onclick="myFunction() ">Click Me!</button>
+    </body>
+</html>
